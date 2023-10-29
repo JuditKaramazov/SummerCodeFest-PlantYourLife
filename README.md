@@ -11,7 +11,7 @@ This is a [React Native](https://reactnative.dev/) project working with [`create
 First, clone the repository:
 
 ```bash
-$ git clone 
+$ git clone https://github.com/JuditKaramazov/SummerCodeFest-PlantYourLife.git
 ```
 
 Then, execute the API we'll be using as a json-server:
