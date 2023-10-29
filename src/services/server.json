@@ -1,0 +1,138 @@
+{
+  "plants_water_frequencies": [
+    {"key": "day", "title": "Daily"},
+    {"key": "week", "title": "Weekly"},
+    {"key": "month", "title": "Monthly"}
+  ],
+
+  "plants_environments": [
+    {"key": "balcony", "title": "Balcony"},
+    {"key": "bedroom", "title": "Room"},
+    {"key": "kitchen", "title": "Kitchen"},
+    {"key": "lounge", "title": "Lounge"},
+    {"key": "bathroom", "title": "Bathroom"}
+  ],
+
+  "plants": [
+    {
+      "id": 1,
+      "name": "Cactus",
+      "about": "It doesn't need much attention - and it certainly won't steal your snacks!",
+      "water_tips": "Keep the cactus soil on the drier side. Water sparingly, about once every 2-4 weeks.",
+      "photo": "https://imgur.com/k2Xvb60.png",
+      "environments": ["balcony", "kitchen", "lounge"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "month"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jade Plant",
+      "about": "It's the plant that's all about the 'green,' but don't expect any stock market tips.",
+      "water_tips": "Let the Jade Plant soil dry out completely before watering. Water every 2-3 weeks.",
+      "photo": "https://imgur.com/rMPVYBL.png",
+      "environments": ["balcony", "bedroom", "lounge"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "month"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Eucalyptus",
+      "about": "It easily adapts to both sunlight and shade but prefers a cool spot away from direct sunlight. Easy there!",
+      "water_tips": "Water it around 3 times a week to maintain a healthy green friendship.",
+      "photo": "https://imgur.com/M1ZQzMZ.png",
+      "environments": ["balcony", "lounge"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ivy",
+      "about": "Ivy is your versatile green buddy, the middle-sized charmer that adapts anywhere and wins hearts effortlessly.",
+      "water_tips": "No big efforts! Water it twice a week - and it will survive!",
+      "photo": "https://imgur.com/5x35jEY.png",
+      "environments": ["bedroom", "lounge"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Fern",
+      "about": "Fern, the green friendo with a scent that reduces anxiety, is your plant pal for tranquility and focus!",
+      "water_tips": "Keep the soil consistently moist to keep it at its green, calming best.",
+      "photo": "https://imgur.com/brig2eL.png",
+      "environments": ["bedroom", "kitchen", "bathroom"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Aloe",
+      "about": "Aloe are so adaptable; you can even pot them in small containers or quirky teacups!",
+      "water_tips": "Less is more when it comes to watering Aloe, so give them a sip once a week!",
+      "photo": "https://imgur.com/PXV9uHw.png",
+      "environments": ["kitchen", "lounge"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Snake Plant",
+      "about": "They are the sun-loving daredevils of the plant world, so give them a spot close to those windows.",
+      "water_tips": "Water them three times a week to keep these resilient serpentine friends alive.",
+      "photo": "https://imgur.com/aU1Dt4Q.png",
+      "environments": ["bedroom", "lounge"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Succulent",
+      "about": "Succulents bring a sense of serenity to your space. They're perfect for those with limited room to spare.",
+      "water_tips": "Give them a sip just a few times a month to keep these water-wise wonders thriving.",
+      "photo": "https://imgur.com/8Vu4oiW.png",
+      "environments": ["bedroom", "lounge"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "month"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Air Plant",
+      "about": "Air Plants are perfect for adding charm to your place. They're like the secret gems of your indoor garden.",
+      "water_tips": "Water the soil gently twice a week to keep these plants safe and sound.",
+      "photo": "https://imgur.com/GJMziEs.png",
+      "environments": ["balcony", "bedroom", "bathroom"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Peace Lily",
+      "about": "The Peace Lily, a hardy and adaptable plant, fits into any soil and brightens up your space with its elegant white blooms.",
+      "water_tips": "Water once a week to maintain this peaceful relationship alive.",
+      "photo": "https://imgur.com/wL1hSw6.png",
+      "environments": ["bedroom", "kitchen", "bathroom"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    }
+  ]
+}
